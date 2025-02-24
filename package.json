@@ -1,0 +1,12 @@
+{
+    "name": "ethereum-smart-contract",
+    "version": "1.0.0",
+    "dependencies": {
+        "hardhat": "^2.9.0",
+        "@nomicfoundation/hardhat-toolbox": "^1.0.0"
+    },
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deploy.js --network hardhat"
+    }
+}
